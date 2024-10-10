@@ -1,0 +1,216 @@
+:root { 
+--primary-color: #0a1128;
+--white-color: #fff;
+--light-gray-color: #EEE; 
+--gap: 3rem
+} 
+
+* {
+    margin: 0;
+    padding: 0; } 
+
+/*font-family: "Open Sans", sans-serif; 
+font-family: "Montserrat", sans-serif; */ 
+
+html { font-size: 62.5%; 
+        scroll-behavior: smooth;
+} 
+
+body { 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 2.0rem;
+    color: var(--primary-color);   
+    line-height: 1.4; 
+} 
+    
+.main-bg {
+    z-index: 9;
+    background-size: cover;
+    background-position: center center; 
+    background-image: url(/assets/img/fundo2.svg);
+    color: var(--white-color);
+   } 
+
+.white-bg{
+    background: var(--white-color); 
+}
+.main-content {
+    max-width: 120rem; 
+    margin: 0 auto ; 
+    } 
+
+.section {
+    min-height: 100vh;  
+} 
+
+.menu {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    border-bottom: 0.2rem solid var(--light-gray-color)
+  }
+
+.menu-content{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative
+}
+
+.menu nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+.menu ul li a {
+    display: block;
+    padding: 2rem;
+    font-size: 1.8rem;
+    font-family: "Montserrat", sans-serif;
+    color: var(--primary-color)
+  }
+
+.menu ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    width: 100%;
+    height: 0.2rem;
+    
+  }
+
+.menu h1 {
+    font-size: 2.3rem;
+    color: var(--primary-color);
+}
+
+.menu h1 a{
+    color: inherit;
+}
+
+.space-menu {
+    height: 6.3rem;
+}
+
+.intro {
+    font-family: "Open Sans", sans-serif;
+}
+
+.intro-content {
+    position: relative;
+    top: -10.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--gap);
+    height: 100vh;
+}
+
+.intro-text-content{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.intro-text-content h2 {
+    font-size: 6rem;
+    margin-bottom: 5rem;
+    line-height: 1.2;
+}
+
+a{
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif
+}
+
+.intro-img img {
+    max-width: 80%;
+    height: 50rem;
+    margin-top: 25rem;
+    margin-left: 35rem;
+    border-radius: 10%;
+    border: 0.1rem solid var(--light-gray-color);
+}
+
+.redes{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding-top: 40px 0px;
+}
+
+.links {
+    text-align: center center;
+    display: flex;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color: var(--light-gray-color);
+    border: 0.2rem solid var(--light-gray-color);
+    border-radius: 8px;
+    padding: 10px 0px;
+    width: 60%;
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+
+.socias {
+    max-width: 100%;
+    height: 4rem;
+}
+
+.main-experience{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.experience {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15rem;
+    gap: 15rem;
+}
+.socias2 {
+    max-width: 100%;
+    height: 20rem;
+
+}
+
+.social-gb {
+    max-width: 100%;
+    height: 10rem;
+}
+
+.intro-text-content2{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.intro-text-content2 h1 {
+    font-size: 4rem;
+    margin-top: 5rem;
+    line-height: 1.2;
+}
+
+h1, h2, h3, h4 { 
+    font-family: "Montserrat", sans-serif;   
+} 
+
+h1 { font-size: 6rem; } 
+
+h2 { font-size: 5.5rem; } 
+
+h3 { font-size: 5rem; }
+
